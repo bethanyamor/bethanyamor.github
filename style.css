@@ -1,0 +1,142 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-size:16px;
+}
+img,
+iframe{
+	max-width:100%;
+	hight:auto;
+	/*so that aspect ratio is even if hight is declared in markup*/
+	border:0;
+	/*this stops a border if the image is inside a link */
+}
+/*this is a CSS comment 
+always comment your work to expain what your doing*/
+body{
+	background-color: indianred;
+}
+header{
+	background-color: black;
+}
+header,footer{
+	text-align: center;
+}
+/*TYPOGRAPHY*/
+h1,h2,h4,p{
+	font-family: 'Playfair Display', serif;
+}
+h1{
+	font-size: 40px;
+	color: #fff/*white*/
+}
+h2{
+	font-size: 50px;
+	font-family:'lato',sans-serif;
+	text-transform: uppercase;
+}
+h1,h2,h4,p,li{
+	passing-bottom:1em;
+}
+.item{
+	background-color:indianred;
+	padding: 1%;
+	margin: 1%;
+	margin-bottom: 20px;
+	margin-top:20px;
+	border-radius:3px
+}
+main{
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*let's talk about nesting */
+.item li{
+	margin-left:25px;
+}
+blockquote{
+	text-transform:uppercase;
+	font-style:italic;
+}
+nav{
+	text-align:center;
+}
+nav li{
+	display: inline-block;
+}
+/*nav li a, or nav a ??*/
+nav a{
+	color: #EDA8A9;
+	padding: 5px;
+	text-decoration: none;
+	border-radius: 5px;
+}
+nav a:hover{
+	background:#4C2121;
+}
+body{
+	background-color: black;
+	background-image: url(BG.jpg);
+		background-repeat: no-repeat;
+	background-size: cover;
+}
+/*media query - responsive*/
+@media screen and (min-width : 1129px ){
+	body{
+		background-color: indianred;
+		font-family: arial;
+	}
+	.item{
+		background-color:#B66869;
+	}
+	h2{
+		font-family:'arial',regular;
+	}
+	@media screen and (min-width: 768px){
+		body{
+			background-color: black;
+			background-image:url(BG.jpg);
+			background-repeat:no-repeat;
+			background-size:cover;
+}
+		
+.beth
+{
+	color:#B56163;
+}
+input [type=text], select{
+	width:100%;
+	padding:12px 20px;
+	margin:8px 0;
+	display:inline-block;
+	border:1px solid #ccc;
+	border-radius:4px;
+	box-sizing:border-box;
+}
+input [type=submit]{
+	width:100px;
+	background-color:#73292A;
+	color:indianred;
+	padding:14px 20px;
+	margin:8px 0;
+	border:none;
+	border-radius:4px;
+	cursor:pointer;
+}
+input[type=submit]:hover{
+	background-color:#753435;
+}
+div{
+	border-radius:5px;
+	background-color:indianred;
+	padding:20px;
+}
+.myDiv{
+	border:5px outset #D02626;
+	background-color:indianred;
+	text-align:center;
+}
+}
+}
